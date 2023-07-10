@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="icon" href="resources/icons8-калькулятор-48.png">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div title="calc__title">
+            <p class="title">Калькулятор</p>
+        </div>
+        <div class="input__calc">
+            <input type="number" class="first__number" id="first-num" placeholder="Введите число">
+            <input type="number" class="second__number" id="second-num" placeholder="Введите число">
+        </div>  
+        <div class="buttons">
+            <button class="plus" id="plus">+</button>
+            <button class="minus" id="minus">-</button>
+            <button class="multiplication" id="multip">*</button>
+            <button class="division" id="division">/</button>
+        </div>
+        <button class="final__sum" id="final-sum"> = Получить результат = </button>
+        <div class="reset">
+        <button class="reset__btn" id="reset-btn">Сбросить значения</button>
+        <div class="result" id="result-oper"></div>
+        </div>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
